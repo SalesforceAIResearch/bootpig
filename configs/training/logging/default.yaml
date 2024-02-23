@@ -1,0 +1,12 @@
+name: experiment
+
+# Path to store logs and checkpoints
+output_dir: /export/home/reps/bootpig_clean/output_data/
+run_dir: ${logging.output_dir}/${logging.name}
+log_dir: ${logging.run_dir}/logs/
+checkpointing_steps: 1000
+checkpoints_total_limit: 5
+checkpoint_keep_freq: 2000
+
+wandb_project: "bootpig"
+wandb_username: "spurushwalkam"

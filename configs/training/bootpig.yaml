@@ -1,0 +1,7 @@
+defaults:
+  - logging: default
+  - optim: default
+  - model: default
+  - exec: default
+  - data: default
+  - hydra: default

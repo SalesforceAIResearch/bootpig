@@ -1,0 +1,9 @@
+seed: 1992
+resume_from_checkpoint: latest
+dataloader_num_workers: 1
+mixed_precision: "bf16"
+local_rank: -1
+set_grads_to_none: False
+allow_tf32: True
+
+train_ref_scale: 1.1

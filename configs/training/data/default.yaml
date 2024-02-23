@@ -1,0 +1,10 @@
+# Path to where data was synthesized
+data_dir: /export/home/reps/bootpig_clean/generated_data/
+
+resolution: 512
+
+empty_prompt_p: 0.15
+empty_ref_p: 0.15
+jitter_p: 0.1
+erase_p: 0.4
+min_pct_area: 1.0

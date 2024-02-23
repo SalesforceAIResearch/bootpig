@@ -1,0 +1,5 @@
+run:
+  dir: ${logging.run_dir}/hydra_outputs/
+sweep:
+  dir: ${logging.run_dir}/hydra_outputs/
+  subdir: ""
