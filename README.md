@@ -38,7 +38,7 @@ python data_synthesis/generate_data.py --out_dir <location to store images>
 Train a Bootpig model using the following command:
 
 ```
-accelerate launch --num_processes=16 train_bootpig.py logging.name=bootpig_release exec.data_dir=<path_to_generated_data> logging.output_dir=<path_to_save_models>
+accelerate launch --num_processes=16 train_bootpig.py logging.name=bootpig_release data.data_dir=<path_to_generated_data> logging.output_dir=<path_to_save_models>
 ```
 
 
